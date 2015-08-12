@@ -1,0 +1,15 @@
+{application, 'eox9p',
+ [{description, "Erlang on Xen implementation of 9P2000 protocol as a standalone library"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {contributors, []},
+  {licenses, []},
+  {links, []}
+ ]}.
