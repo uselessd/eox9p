@@ -2861,7 +2861,7 @@ encode_stat(#stat{ver =u,		%% 9P2000.u
 	<<(size(Stat)):16/little,Stat/binary>>.
 
 timestamp() ->
-	{Mega,Secs,_} = now(),
+	{Mega,Secs,_} = erlang:timestamp(),
 	Mega *1000000 +Secs.
 
 %%
