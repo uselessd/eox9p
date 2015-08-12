@@ -1,11 +1,11 @@
 eox9p
 =====
 
-Erlang on Xen implementation of 9P2000 protocol as a standalone library.
+Erlang on Xen's implementation of the 9P2000 protocol as a standalone rebar3 library.
 
-Updated to be Erlang/OTP 18-compatible.
+Updated to be Erlang/OTP 18-compatible with regards to time correction.
 
-To be evolved.
+Will likely be further evolved in the future.
 
 Build
 -----
